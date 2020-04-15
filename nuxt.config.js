@@ -29,8 +29,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    {src:'~/plugins/validation.js', ssr: false},
-    {src:'~plugins/vue-js-modal', ssr: false}
+    '~/plugins/validation.js',
+    '~plugins/vue-js-modal'
   ],
   /*
   ** Nuxt.js dev-modules
