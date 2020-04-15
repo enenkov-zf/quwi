@@ -4,7 +4,7 @@
       <ValidationObserver v-slot="{ handleSubmit }">
         <form method="POST" @submit.prevent="handleSubmit(submit)">
           <h1 class="login-form--title">
-            Login
+            Login login
           </h1>
           <div class="login-form--field form-field">
             <ValidationProvider v-slot="{ classes, errors }" name="Email" rules="required|email">
